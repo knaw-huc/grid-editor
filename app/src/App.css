@@ -36,11 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-.ag-header-cell-label{
-  font-weight: bold;
-}
-
-.smallNumber{
-  width: 80px !important;
-}

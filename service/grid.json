@@ -1,0 +1,531 @@
+{
+  "id": "clarin.eu:cr1:p_1712653174431",
+  "content": [
+    {
+      "type": "Component",
+      "level": 1,
+      "ID": "66967e964d062",
+      "attributes": {
+        "name": "Grid",
+        "label": "Grid",
+        "CardinalityMin": "1",
+        "CardinalityMax": "1",
+        "initialOrder": 1
+      },
+      "content": [
+        {
+          "type": "Element",
+          "level": 2,
+          "ID": "66967e964d083",
+          "attributes": {
+            "name": "id",
+            "label": "Id",
+            "ValueScheme": "int",
+            "CardinalityMin": "1",
+            "CardinalityMax": "1",
+            "initialOrder": 1
+          }
+        },
+        {
+          "type": "Element",
+          "level": 2,
+          "ID": "66967e964d08b",
+          "attributes": {
+            "name": "bladnummer",
+            "label": "Bladnummer",
+            "ValueScheme": "int",
+            "CardinalityMin": "1",
+            "CardinalityMax": "1",
+            "initialOrder": 2
+          }
+        },
+        {
+          "type": "Element",
+          "level": 2,
+          "ID": "66967e964d08f",
+          "attributes": {
+            "name": "volgnummer",
+            "label": "Volgnummer",
+            "ValueScheme": "int",
+            "CardinalityMin": "1",
+            "CardinalityMax": "1",
+            "initialOrder": 3
+          }
+        },
+        {
+          "type": "Element",
+          "level": 2,
+          "ID": "66967e964d093",
+          "attributes": {
+            "name": "familienaam",
+            "label": "Familienaam",
+            "ValueScheme": "string",
+            "CardinalityMin": "1",
+            "CardinalityMax": "1",
+            "initialOrder": 4
+          }
+        },
+        {
+          "type": "Element",
+          "level": 2,
+          "ID": "66967e964d096",
+          "attributes": {
+            "name": "voornamen",
+            "label": "Voornamen",
+            "ValueScheme": "string",
+            "CardinalityMin": "1",
+            "CardinalityMax": "1",
+            "initialOrder": 5
+          }
+        },
+        {
+          "type": "Element",
+          "level": 2,
+          "ID": "66967e964d099",
+          "attributes": {
+            "name": "geslacht",
+            "label": "Geslacht",
+            "CardinalityMin": "1",
+            "CardinalityMax": "1",
+            "ValueScheme": [
+              [
+                {
+                  "value": "m",
+                  "label": "m"
+                },
+                {
+                  "value": "v",
+                  "label": "v"
+                },
+                {
+                  "value": "o",
+                  "label": "o"
+                }
+              ]
+            ],
+            "initialOrder": 6
+          }
+        },
+        {
+          "type": "Element",
+          "level": 2,
+          "ID": "66967e964d0a6",
+          "attributes": {
+            "name": "betrekking_hoofd",
+            "label": "Betrekking_hoofd",
+            "ValueScheme": "string",
+            "CardinalityMin": "1",
+            "CardinalityMax": "1",
+            "initialOrder": 7
+          }
+        },
+        {
+          "type": "Element",
+          "level": 2,
+          "ID": "66967e964d0aa",
+          "attributes": {
+            "name": "geboorteplaats",
+            "label": "Geboorteplaats",
+            "ValueScheme": "string",
+            "CardinalityMin": "1",
+            "CardinalityMax": "1",
+            "initialOrder": 8
+          }
+        },
+        {
+          "type": "Element",
+          "level": 2,
+          "ID": "66967e964d0ad",
+          "attributes": {
+            "name": "burgelijke_stand",
+            "label": "Burgelijke_stand",
+            "CardinalityMin": "1",
+            "CardinalityMax": "1",
+            "ValueScheme": [
+              [
+                {
+                  "value": "o",
+                  "label": "o"
+                },
+                {
+                  "value": "w",
+                  "label": "w"
+                }
+              ]
+            ],
+            "initialOrder": 9
+          }
+        },
+        {
+          "type": "Element",
+          "level": 2,
+          "ID": "66967e964d0b3",
+          "attributes": {
+            "name": "religie",
+            "label": "Religie",
+            "ValueScheme": "string",
+            "CardinalityMin": "0",
+            "CardinalityMax": "1",
+            "initialOrder": 10
+          }
+        },
+        {
+          "type": "Element",
+          "level": 2,
+          "ID": "66967e964d0b6",
+          "attributes": {
+            "name": "beroep",
+            "label": "Beroep",
+            "ValueScheme": "string",
+            "CardinalityMin": "0",
+            "CardinalityMax": "1",
+            "initialOrder": 11
+          }
+        },
+        {
+          "type": "Element",
+          "level": 2,
+          "ID": "66967e964d0ba",
+          "attributes": {
+            "name": "huizing",
+            "label": "Huizing",
+            "ValueScheme": "string",
+            "CardinalityMin": "0",
+            "CardinalityMax": "1",
+            "initialOrder": 12
+          }
+        },
+        {
+          "type": "Element",
+          "level": 2,
+          "ID": "66967e964d0bd",
+          "attributes": {
+            "name": "vorige_woonplaats",
+            "label": "Vorige_woonplaats",
+            "ValueScheme": "string",
+            "CardinalityMin": "0",
+            "CardinalityMax": "1",
+            "initialOrder": 13
+          }
+        },
+        {
+          "type": "Element",
+          "level": 2,
+          "ID": "66967e964d0c0",
+          "attributes": {
+            "name": "bestemming",
+            "label": "Bestemming",
+            "ValueScheme": "string",
+            "CardinalityMin": "0",
+            "CardinalityMax": "1",
+            "initialOrder": 14
+          }
+        },
+        {
+          "type": "Element",
+          "level": 2,
+          "ID": "66967e964d0c3",
+          "attributes": {
+            "name": "plaats_overlijden",
+            "label": "Plaats_overlijden",
+            "ValueScheme": "string",
+            "CardinalityMin": "1",
+            "CardinalityMax": "1",
+            "initialOrder": 15
+          }
+        },
+        {
+          "type": "Element",
+          "level": 2,
+          "ID": "66967e964d0c6",
+          "attributes": {
+            "name": "domicilie",
+            "label": "Domicilie",
+            "ValueScheme": "string",
+            "CardinalityMin": "0",
+            "CardinalityMax": "1",
+            "initialOrder": 16
+          }
+        },
+        {
+          "type": "Element",
+          "level": 2,
+          "ID": "66967e964d0ca",
+          "attributes": {
+            "name": "aanmerkingen",
+            "label": "Aanmerkingen",
+            "ValueScheme": "string",
+            "CardinalityMin": "1",
+            "CardinalityMax": "1",
+            "initialOrder": 17
+          }
+        },
+        {
+          "type": "Component",
+          "level": 2,
+          "ID": "66967e964d0cf",
+          "attributes": {
+            "name": "Inschrijving",
+            "label": "Inschrijving",
+            "CardinalityMin": "0",
+            "CardinalityMax": "1",
+            "initialOrder": 18
+          },
+          "content": [
+            {
+              "type": "Element",
+              "level": 3,
+              "ID": "66967e964d0d2",
+              "attributes": {
+                "name": "dag",
+                "label": "Dag",
+                "ValueScheme": "gDay",
+                "CardinalityMin": "1",
+                "CardinalityMax": "1",
+                "initialOrder": 1
+              }
+            },
+            {
+              "type": "Element",
+              "level": 3,
+              "ID": "66967e964d0d6",
+              "attributes": {
+                "name": "maand",
+                "label": "Maand",
+                "ValueScheme": "gMonth",
+                "CardinalityMin": "1",
+                "CardinalityMax": "1",
+                "initialOrder": 2
+              }
+            },
+            {
+              "type": "Element",
+              "level": 3,
+              "ID": "66967e964d0d9",
+              "attributes": {
+                "name": "jaar",
+                "label": "Jaar",
+                "ValueScheme": "gYear",
+                "CardinalityMin": "1",
+                "CardinalityMax": "1",
+                "initialOrder": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "Component",
+          "level": 2,
+          "ID": "66967e964d0e9",
+          "attributes": {
+            "name": "Geboorte",
+            "label": "Geboorte",
+            "CardinalityMin": "0",
+            "CardinalityMax": "1",
+            "initialOrder": 19
+          },
+          "content": [
+            {
+              "type": "Element",
+              "level": 3,
+              "ID": "66967e964d0ed",
+              "attributes": {
+                "name": "dag",
+                "label": "Dag",
+                "ValueScheme": "gDay",
+                "CardinalityMin": "1",
+                "CardinalityMax": "1",
+                "initialOrder": 1
+              }
+            },
+            {
+              "type": "Element",
+              "level": 3,
+              "ID": "66967e964d0f1",
+              "attributes": {
+                "name": "maand",
+                "label": "Maand",
+                "ValueScheme": "gMonth",
+                "CardinalityMin": "1",
+                "CardinalityMax": "1",
+                "initialOrder": 2
+              }
+            },
+            {
+              "type": "Element",
+              "level": 3,
+              "ID": "66967e964d0f4",
+              "attributes": {
+                "name": "jaar",
+                "label": "Jaar",
+                "ValueScheme": "gYear",
+                "CardinalityMin": "1",
+                "CardinalityMax": "1",
+                "initialOrder": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "Component",
+          "level": 2,
+          "ID": "66967e964d0f8",
+          "attributes": {
+            "name": "Vestiging",
+            "label": "Vestiging",
+            "CardinalityMin": "0",
+            "CardinalityMax": "1",
+            "initialOrder": 20
+          },
+          "content": [
+            {
+              "type": "Element",
+              "level": 3,
+              "ID": "66967e964d0fc",
+              "attributes": {
+                "name": "dag",
+                "label": "Dag",
+                "ValueScheme": "gDay",
+                "CardinalityMin": "1",
+                "CardinalityMax": "1",
+                "initialOrder": 1
+              }
+            },
+            {
+              "type": "Element",
+              "level": 3,
+              "ID": "66967e964d0ff",
+              "attributes": {
+                "name": "maand",
+                "label": "Maand",
+                "ValueScheme": "gMonth",
+                "CardinalityMin": "1",
+                "CardinalityMax": "1",
+                "initialOrder": 2
+              }
+            },
+            {
+              "type": "Element",
+              "level": 3,
+              "ID": "66967e964d103",
+              "attributes": {
+                "name": "jaar",
+                "label": "Jaar",
+                "ValueScheme": "gYear",
+                "CardinalityMin": "1",
+                "CardinalityMax": "1",
+                "initialOrder": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "Component",
+          "level": 2,
+          "ID": "66967e964d108",
+          "attributes": {
+            "name": "Vertrek",
+            "label": "Vertrek",
+            "CardinalityMin": "0",
+            "CardinalityMax": "1",
+            "initialOrder": 21
+          },
+          "content": [
+            {
+              "type": "Element",
+              "level": 3,
+              "ID": "66967e964d10d",
+              "attributes": {
+                "name": "dag",
+                "label": "Dag",
+                "ValueScheme": "gDay",
+                "CardinalityMin": "1",
+                "CardinalityMax": "1",
+                "initialOrder": 1
+              }
+            },
+            {
+              "type": "Element",
+              "level": 3,
+              "ID": "66967e964d113",
+              "attributes": {
+                "name": "maand",
+                "label": "Maand",
+                "ValueScheme": "gMonth",
+                "CardinalityMin": "1",
+                "CardinalityMax": "1",
+                "initialOrder": 2
+              }
+            },
+            {
+              "type": "Element",
+              "level": 3,
+              "ID": "66967e964d119",
+              "attributes": {
+                "name": "jaar",
+                "label": "Jaar",
+                "ValueScheme": "gYear",
+                "CardinalityMin": "1",
+                "CardinalityMax": "1",
+                "initialOrder": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "Component",
+          "level": 2,
+          "ID": "66967e964d11f",
+          "attributes": {
+            "name": "Overlijden",
+            "label": "Overlijden",
+            "CardinalityMin": "0",
+            "CardinalityMax": "1",
+            "initialOrder": 22
+          },
+          "content": [
+            {
+              "type": "Element",
+              "level": 3,
+              "ID": "66967e964d125",
+              "attributes": {
+                "name": "dag",
+                "label": "Dag",
+                "ValueScheme": "gDay",
+                "CardinalityMin": "1",
+                "CardinalityMax": "1",
+                "initialOrder": 1
+              }
+            },
+            {
+              "type": "Element",
+              "level": 3,
+              "ID": "66967e964d12b",
+              "attributes": {
+                "name": "maand",
+                "label": "Maand",
+                "ValueScheme": "gMonth",
+                "CardinalityMin": "1",
+                "CardinalityMax": "1",
+                "initialOrder": 2
+              }
+            },
+            {
+              "type": "Element",
+              "level": 3,
+              "ID": "66967e964d12f",
+              "attributes": {
+                "name": "jaar",
+                "label": "Jaar",
+                "ValueScheme": "gYear",
+                "CardinalityMin": "1",
+                "CardinalityMax": "1",
+                "initialOrder": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

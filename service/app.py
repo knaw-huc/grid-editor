@@ -11,10 +11,7 @@ from os.path import isfile, join, exists
 
 
 app = Flask(__name__)
-DATA_FOLDER = '/Users/robzeeman/surfdrive/Documents/DI/grid_editor/voorbeeld_data/'
-
-
-
+DATA_FOLDER = '/Users/robzeeman/surfdrive/Documents/DI_code/DATA/grid_editor/'
 
 
 @app.after_request
